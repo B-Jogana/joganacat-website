@@ -1,0 +1,60 @@
+.image{
+    width: 80%;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: beige;
+    box-shadow: 0px 4px 6px rgb(0, 255, 55);
+}
+.dropdown:hover .dropdown-content{
+    display: inline;
+    position: absolute;
+}
+.container{
+    background-color: wheat;
+}
+
+
+.named{
+    display:none;
+    position: initial;
+    box-shadow:0px 2px 3px black;
+    box-sizing: 12%;
+}
+
+.catn:hover .named{
+    display: block;
+    gap:initial;
+}
+
+#button{
+    background-color: antiquewhite;
+    color: blue;
+    right: 100%;
+}
+
+.img-cont{
+    position: relative;
+    width: 100%;
+}
+
+.img-cont img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.img-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    color: black(6, 5, 66);
+    transform: translate(-50%,-50%);
+    display: none;
+    box-shadow: 0px 1px 2px 2px blue;
+}
+
+.img-cont:hover .img-text{
+    display: block;
+    gap: initial;
+}
